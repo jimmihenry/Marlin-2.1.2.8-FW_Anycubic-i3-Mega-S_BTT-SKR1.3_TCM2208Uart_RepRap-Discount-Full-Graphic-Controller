@@ -774,8 +774,8 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Print Bed PID debug data to the serial port.
 
+  
   // Anycubic i3 Mega Ultrabase (0.9Ω @ 22°C)
-							
   #define DEFAULT_BED_KP 251.78
   #define DEFAULT_BED_KI 49.57
   #define DEFAULT_BED_KD 319.73
