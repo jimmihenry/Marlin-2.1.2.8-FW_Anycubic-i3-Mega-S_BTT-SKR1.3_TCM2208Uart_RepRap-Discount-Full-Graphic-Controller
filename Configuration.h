@@ -61,7 +61,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Jimmi Henry )" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Jimmi Henry Mod)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -683,9 +683,9 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_KP_LIST {  21.00,  21.00 }
-    #define DEFAULT_KI_LIST {   1.25,   1.257 }
-    #define DEFAULT_KD_LIST { 88.00, 88.00 }
+    #define DEFAULT_KP_LIST {  15.94,  15.94 }
+    #define DEFAULT_KI_LIST {   1.17,   1.17 }
+    #define DEFAULT_KD_LIST { 54.19, 54.19 }
   #else
     #define DEFAULT_KP  15.94
     #define DEFAULT_KI   1.17
@@ -774,8 +774,8 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Print Bed PID debug data to the serial port.
 
-  
   // Anycubic i3 Mega Ultrabase (0.9Ω @ 22°C)
+							
   #define DEFAULT_BED_KP 251.78
   #define DEFAULT_BED_KI 49.57
   #define DEFAULT_BED_KD 319.73
@@ -1197,14 +1197,14 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 393 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 384 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
  * Override with M203
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 60 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
