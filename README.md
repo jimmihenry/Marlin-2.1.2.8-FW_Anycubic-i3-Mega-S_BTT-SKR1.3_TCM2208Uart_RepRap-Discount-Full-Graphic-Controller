@@ -150,4 +150,3 @@ Config_adv.h
 // @section host
 #define HOST_ACTION_COMMANDS
 #define HOST_PROMPT_SUPPORT                   // Initiate host prompts to get user feedback
-=============================================================================================================
