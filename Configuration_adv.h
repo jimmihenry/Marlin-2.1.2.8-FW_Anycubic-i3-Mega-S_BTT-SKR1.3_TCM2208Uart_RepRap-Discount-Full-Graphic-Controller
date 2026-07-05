@@ -3123,27 +3123,27 @@
   #define HYBRID_THRESHOLD
 
   #define X_HYBRID_THRESHOLD       0  // [mm/s] was 100
-  #define X2_HYBRID_THRESHOLD    100  
+  #define X2_HYBRID_THRESHOLD      0  // was 100
   #define Y_HYBRID_THRESHOLD       0  // was 100
   #define Y2_HYBRID_THRESHOLD      0
-  #define Z_HYBRID_THRESHOLD       3  // was 3
-  #define Z2_HYBRID_THRESHOLD      3  // was 3
-  #define Z3_HYBRID_THRESHOLD      3
-  #define Z4_HYBRID_THRESHOLD      3
-  #define I_HYBRID_THRESHOLD       3  // [linear=mm/s, rotational=°/s]
-  #define J_HYBRID_THRESHOLD       3  // [linear=mm/s, rotational=°/s]
-  #define K_HYBRID_THRESHOLD       3  // [linear=mm/s, rotational=°/s]
-  #define U_HYBRID_THRESHOLD       3  // [mm/s]
-  #define V_HYBRID_THRESHOLD       3
-  #define W_HYBRID_THRESHOLD       3
+  #define Z_HYBRID_THRESHOLD       0  // was 3
+  #define Z2_HYBRID_THRESHOLD      0  // was 3
+  #define Z3_HYBRID_THRESHOLD      0  // was 3
+  #define Z4_HYBRID_THRESHOLD      0  // was 3
+  #define I_HYBRID_THRESHOLD       0  // [linear=mm/s, rotational=°/s] // was 3
+  #define J_HYBRID_THRESHOLD       0  // [linear=mm/s, rotational=°/s] // was 3
+  #define K_HYBRID_THRESHOLD       0  // [linear=mm/s, rotational=°/s] // was 3
+  #define U_HYBRID_THRESHOLD       0  // [mm/s]
+  #define V_HYBRID_THRESHOLD       0  // was 3
+  #define W_HYBRID_THRESHOLD       0  // was 3
   #define E0_HYBRID_THRESHOLD      0  // was 30
-  #define E1_HYBRID_THRESHOLD     30
-  #define E2_HYBRID_THRESHOLD     30
-  #define E3_HYBRID_THRESHOLD     30
-  #define E4_HYBRID_THRESHOLD     30
-  #define E5_HYBRID_THRESHOLD     30
-  #define E6_HYBRID_THRESHOLD     30
-  #define E7_HYBRID_THRESHOLD     30
+  #define E1_HYBRID_THRESHOLD      0  // was 30
+  #define E2_HYBRID_THRESHOLD      0  // was 30
+  #define E3_HYBRID_THRESHOLD      0  // was 30
+  #define E4_HYBRID_THRESHOLD      0  // was 30
+  #define E5_HYBRID_THRESHOLD      0  // was 30
+  #define E6_HYBRID_THRESHOLD      0  // was 30
+  #define E7_HYBRID_THRESHOLD      0   // was 30
 
   /**
    * Use StallGuard to home / probe X, Y, Z.
